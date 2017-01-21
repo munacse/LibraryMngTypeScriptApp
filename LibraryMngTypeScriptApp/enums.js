@@ -19,4 +19,12 @@ var Gender;
     Gender[Gender["Unknown"] = 2] = "Unknown";
 })(Gender || (Gender = {}));
 exports.Gender = Gender;
+var CutomerType;
+(function (CutomerType) {
+    CutomerType[CutomerType["Regular"] = 0] = "Regular";
+    CutomerType[CutomerType["Weekly"] = 1] = "Weekly";
+    CutomerType[CutomerType["Monthy"] = 2] = "Monthy";
+    CutomerType[CutomerType["Irregular"] = 3] = "Irregular";
+})(CutomerType || (CutomerType = {}));
+exports.CutomerType = CutomerType;
 //# sourceMappingURL=enums.js.map

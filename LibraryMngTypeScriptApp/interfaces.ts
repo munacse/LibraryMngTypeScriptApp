@@ -1,4 +1,4 @@
-﻿import { Category, Gender } from './enums';
+﻿import { Category, Gender, CutomerType } from './enums';
 
 interface IBook {
     Id: number;
@@ -21,4 +21,14 @@ interface IPerson {
     Gender: Gender;
 }
 
-export { IBook, IDamaged, IPerson };
+interface ICustomer extends IPerson {
+    Id: number;
+    CutomerType: CutomerType;
+}
+
+interface IOrder {
+    Customer: ICustomer;
+    Books: IBook[];
+}
+
+export { IBook, IDamaged, IPerson, ICustomer, IOrder };

@@ -3,4 +3,6 @@ enum Category { Fiction, FictionHistory, YoungAdult, ScienceFiction, Novel, Roma
 
 enum Gender { Male, Female, Unknown }
 
-export { Category, Gender };
+enum CutomerType { Regular, Weekly, Monthy, Irregular }
+
+export { Category, Gender, CutomerType };
