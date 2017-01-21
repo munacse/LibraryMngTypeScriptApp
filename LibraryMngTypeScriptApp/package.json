@@ -1,0 +1,9 @@
+{
+  "name": "library-mng-type-script-app",
+  "version": "0.0.0",
+  "description": "LibraryMngTypeScriptApp",
+  "main": "app.js",
+  "author": {
+    "name": "Muna"
+  }
+}
